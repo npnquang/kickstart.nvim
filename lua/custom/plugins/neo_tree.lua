@@ -8,6 +8,7 @@ return {
           hide_dotfiles = false,   -- show dotfiles
           hide_gitignored = false, -- show gitignored files
         },
+        use_libuv_file_watcher = true,
       },
     })
   end,
